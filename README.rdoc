@@ -31,3 +31,12 @@ Things you may want to cover:
 
 Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
+
+1)YAML configuration.(railscast)
+2)page caching
+3)shoulda gem implementation
+4)email sending
+5)cucumber testing
+6)check_health gem
+7)testing rspec
+8)

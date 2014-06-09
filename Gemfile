@@ -38,3 +38,19 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+group :test do
+	gem 'minitest'
+	gem 'shoulda'
+	gem 'cucumber-rails', require: false
+	gem 'database_cleaner'
+	gem 'selenium-webdriver'
+end	
+
+group :development, :test do
+  gem 'rspec-rails'
+  gem 'factory_girl_rails'
+end
+
+gem 'actionpack-action_caching'
+gem 'actionpack-page_caching'
+gem 'health_check'

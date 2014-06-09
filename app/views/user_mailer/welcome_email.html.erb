@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta content='text/html';charset='UTF-8' http-equiv='Content-Type' />
+</head>
+<body>
+	<h1>welcome to suresh.com,<%= @user.name%></h1>
+	<p>
+		you have successfully signed to suresh.com,
+		your user name is: <%= @user.login%>.<br>
+	</p>
+	<p>
+		To login to the site, just follow this link:<%= @url %>
+	</p>
+	<p>Hello there, this is our image</p>
+ 
+<%= image_tag attachments['cherry-fruit.jpg'].url,alt: 'Fruits',class: 'photos' %>
+</body>
+</html>

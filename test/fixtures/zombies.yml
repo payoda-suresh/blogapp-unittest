@@ -1,0 +1,12 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+suresh:
+  id:	1
+  name: suresh
+  graveyard: oak
+  status: "alive"
+
+two:
+  id: 2
+  name: kumar
+  graveyard: balur

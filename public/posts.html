@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BlogUnittest</title>
+  <link href="http://localhost:3000/posts.atom" rel="alternate" title="ATOM" type="application/atom+xml" />
+  <link data-turbolinks-track="true" href="/assets/posts.css?body=1" media="all" rel="stylesheet" />
+<link data-turbolinks-track="true" href="/assets/scaffolds.css?body=1" media="all" rel="stylesheet" />
+<link data-turbolinks-track="true" href="/assets/zombies.css?body=1" media="all" rel="stylesheet" />
+<link data-turbolinks-track="true" href="/assets/application.css?body=1" media="all" rel="stylesheet" />
+  <script data-turbolinks-track="true" src="/assets/jquery.js?body=1"></script>
+<script data-turbolinks-track="true" src="/assets/jquery_ujs.js?body=1"></script>
+<script data-turbolinks-track="true" src="/assets/turbolinks.js?body=1"></script>
+<script data-turbolinks-track="true" src="/assets/posts.js?body=1"></script>
+<script data-turbolinks-track="true" src="/assets/zombies.js?body=1"></script>
+<script data-turbolinks-track="true" src="/assets/application.js?body=1"></script>
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="3Ked0YLlVEVqVfezHWctzGwxYWDx5YW5M2YE1rHcthc=" name="csrf-token" />
+</head>
+<body>
+
+<h1>Listing posts</h1>
+
+
+<a href="http://localhost:3000/posts.rss"><img alt="Feed icon 28x28" src="/assets/feed-icon-28x28.png" /></a>
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Body</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+      <tr>
+        <td>rails 4 outlaws1</td>
+        <td>outlaws of rails 412</td>
+        <td><a href="/posts/1">Show</a></td>
+        <td><a href="/posts/1/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" data-method="delete" href="/posts/1" rel="nofollow">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Atom support added</td>
+        <td>This description is about how to add support for atom.</td>
+        <td><a href="/posts/2">Show</a></td>
+        <td><a href="/posts/2/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" data-method="delete" href="/posts/2" rel="nofollow">Destroy</a></td>
+      </tr>
+  </tbody>
+</table>
+
+<br>
+
+<a href="/posts/new">New Post</a>
+
+
+</body>
+</html>

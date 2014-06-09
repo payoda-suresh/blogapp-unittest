@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+ash_1:
+  status: MyString
+  zombie_id: 1 
+
+ash_2:
+  status: MyString
+  zombie_id: 1
