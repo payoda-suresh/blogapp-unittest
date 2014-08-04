@@ -17,6 +17,9 @@ Things you may want to cover:
 * Database creation
 	rake db:create
 
+* Drop database
+  rake db:drop
+
 * Database initialization
 
 * How to run the test suite
